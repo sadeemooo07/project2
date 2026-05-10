@@ -177,6 +177,14 @@ Most students scored within the high-performance range (80–90).
 
 ## 📌 Histogram — Distribution of Final Marks
 ![Histogram](images/histogram.png)
+---
+# 🧹 Data Cleaning
+
+The dataset was checked for missing values using:
+```
+print(data.isnull().sum())
+```
+The results showed that there were no missing values in the dataset, so no additional cleaning was required.
 
 ---
 
